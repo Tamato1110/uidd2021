@@ -38,6 +38,38 @@ i.icon {
   position: absolute;
   right: 0.5em;
 }
+//表格
+.tablehead {
+        table-layout:fixed;
+        clear:both;
+        width:100%;
+        height:40px;
+        border:#ccc 1px solid;
+        margin-top:10px;
+        background-color:#eee;
+}
+.tablebody {
+        table-layout:fixed;
+        clear:both;
+        width:100%;
+        margin-top:-1px;
+    }
+    table td {
+        border:#ccc 1px solid;
+        text-align:center;
+    }
+    table tr {
+        width:100%;
+        height:40px;
+    }
+
+    .tablebodyBox {
+        overflow-x: hidden;
+        width:100%;
+        overflow-y:scroll;
+        border-bottom:1px solid #ccc;
+    }
+//表格
 
 .avatar.dirty { background-image: url(./res/dirty.jpg) }
 .icon.arrow   { background-image: url(./res/angle-left.jpg) }
