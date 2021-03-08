@@ -9,17 +9,20 @@ body {
   backgroung-color:white;
   box-shadow:0px 2px 5px 0px #A39DAD;
   h2{color:#707070;front-size:24px;front-family:Segoe UI-Semibold}
+  display: inline-block; 
 }
 
 .Main1 {
-  h1{color:;front-size:;front-family:}
-  h2{color:;front-size:;front-family:}
-  p{color:;front-size:;front-family:}
+  h1{color:#404040;front-size:34px;front-family:Segoe UI-Regular}
+  h2{color:#404040;front-size:30px;front-family:Segoe UI-Regular}
+  p{color:#404040;front-size:24px;front-family:Segoe UI-Regular}
 }
 .Main2 {
-  h1{color:;front-size:;front-family:}
-  h2{color:;front-size:;front-family:}
-  p{color:;front-size:;front-family:}
+  h1{color:#FFFFFF;front-size:34px;front-family:Segoe UI-Semibold}
+  p{color:#FFFFFF;front-size:24px;front-family:Segoe UI-Semibold}
+}
+.Pic4 {
+  
 }
 
 #navbar, #banner, #main, #bottom {
