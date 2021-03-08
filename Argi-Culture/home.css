@@ -1,6 +1,21 @@
 body {
-  background: rgba(0, 0, 0, .1);
+  background:white;
   margin: 0;
+}
+
+.navbar {
+  h2{color:;front-size:;front-family:}
+}
+
+.Main1 {
+  h1{color:;front-size:;front-family:}
+  h2{color:;front-size:;front-family:}
+  p{color:;front-size:;front-family:}
+}
+.Main2 {
+  h1{color:;front-size:;front-family:}
+  h2{color:;front-size:;front-family:}
+  p{color:;front-size:;front-family:}
 }
 
 #navbar, #banner, #main, #bottom {
