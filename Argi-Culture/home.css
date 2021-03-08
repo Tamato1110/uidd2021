@@ -4,7 +4,11 @@ body {
 }
 
 .navbar {
-  h2{color:;front-size:;front-family:}
+  width:100%;
+  heigh:100px;
+  backgroung-color:white;
+  box-shadow:0px 2px 5px 0px #A39DAD;
+  h2{color:#707070;front-size:24px;front-family:Segoe UI-Semibold}
 }
 
 .Main1 {
