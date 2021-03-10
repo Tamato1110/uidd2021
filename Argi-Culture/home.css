@@ -11,7 +11,7 @@ body {
   grid-template-rows:280px 740px 875px 1335px;
 }
 
-#Adopt,#PicLeft,#How,#PicRight,#Cooperate,#Ducrops,#About,#Connect,#Question {
+#Adopt,#PicLeft,#How,#PicRight,#Cooperate,#Ducrops,#About,#Connect,#question {
   padding-left: 140px;
   padding-right: 140px;
 }
@@ -34,7 +34,7 @@ body {
 .navbar li {
   display: inline-block;
   
-  #question {
+#question {
   width: 1640px;
   min-height: 669px;
   margin-top: 198px;
@@ -59,7 +59,7 @@ body {
   color: #404040;
 }
 
-#question .Q {
+#question .A {
   font: normal normal normal 24px/32px Segoe UI;
   opacity: 0;
 }
