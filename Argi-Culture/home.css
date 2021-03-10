@@ -12,6 +12,7 @@ body {
 
 
 header {
+  display: inline-block;
   position: fixed;
   display:flex;
   align-items: center;
@@ -29,7 +30,7 @@ header #logo img {
   height: 42px;
 }
 header .navbar {
-  display: inline-block;
+
   margin: 0px 32px 0px 32px;
   vertical-align: middle;
 }
