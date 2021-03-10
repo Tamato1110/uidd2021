@@ -73,6 +73,7 @@ body {
 #PicRight {
   top: 280px;
   left: 1138px;
+  border-spacing:16px;
 }
 
 #How h1{
@@ -85,6 +86,12 @@ body {
   letter-spacing: 0px;
   color: #707070;
 }
+#PicLeft {
+  top: 875px;
+  left: 140px;
+  border-spacing:16px;
+}
+
 #Cooperate h1 {
   top: 1395px;
   font: normal normal normal 34px/46px Segoe UI;
@@ -168,4 +175,15 @@ body {
   height: 167px;
   text-align: center;
   background: #404040 0% 0% no-repeat padding-box;
+}
+#Conact h1 {
+  top: 3035px;
+  font: normal normal 600 34px/46px Segoe UI;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+#Conact table {
+  top: 3017px;
+  left: 617px;
+  table-layout:fixed;
 }
