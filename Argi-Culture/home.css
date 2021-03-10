@@ -1,7 +1,7 @@
 html {
   scroll-behavior: auto;
 }
-body {
+header main footer {
   position: absolute;
   text-align: left;
   letter-spacing: 0px;
