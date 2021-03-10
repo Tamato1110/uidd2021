@@ -3,11 +3,10 @@ html {
 }
 body {
   position: absolute;
+}
+#Adopt,#PicLeft,#How,#PicRight,#Cooperate,#Ducrops,#About,#Connect,#Question {
   padding-left: 140px;
   padding-right: 140px;
-}
-#Adopt #PicLeft #How #PicRight #Cooperate #Ducrops #About #Connect #Question {
-
 }
 .navbar {
   position: fixed;
