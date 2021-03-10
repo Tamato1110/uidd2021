@@ -77,10 +77,12 @@ body {
 #PicRight {
   grid-area:3/4;
   justify-selfs:center;
+  width: 313px;
 }
 #PicLeft {
   grid-area:1/2;
   justify-selfs:center;
+  width: 313px;
 }
 
 #How h1{
@@ -93,11 +95,6 @@ body {
   letter-spacing: 0px;
   color: #707070;
 }
-#PicLeft {
-  top: 875px;
-  left: 140px;
-  border-spacing:16px;
-}
 
 #Cooperate h1 {
   top: 1395px;
@@ -105,7 +102,6 @@ body {
   letter-spacing: 0px;
   color: #404040;
 }
-
 #Cooperate table {
   width: 1640px;
   height: 376px;
@@ -156,6 +152,7 @@ body {
 }
 .Ducrops #corps {
   top: 2262px;
+  display:flex;
   background-repeat:repeat-x;
   width: 1648px;
   height: 60px;
@@ -178,18 +175,23 @@ body {
   letter-spacing: 0px;
   color: #FFFFFF;
 }
-#contact {
+#About img {
+  width: 500px;
+  height: 470px;
+  margin-right: 112px;
+}
+#Connect {
   height: 167px;
   text-align: center;
   background: #404040 0% 0% no-repeat padding-box;
 }
-#Conact h1 {
+#Connect h1 {
   top: 3035px;
   font: normal normal 600 34px/46px Segoe UI;
   letter-spacing: 0px;
   color: #FFFFFF;
 }
-#Conact table {
+#Connect table {
   grid-area:2/3;
   justify-selfs:start;
 }
