@@ -1,46 +1,38 @@
 html {
   scroll-behavior: auto;
 }
-header main footer {
+body {
   position: absolute;
-  text-align: left;
-  letter-spacing: 0px;
-  font: normal normal normal 24px/48px Segoe UI;
-  color: #707070;
-  opacity: 1;
 }
-
-
-header {
-  display: inline-block;
+#Adopt #PicLeft #How #PicRight #Cooperate #Ducrops #About #Connect #Question {
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.navbar {
   position: fixed;
-  display:flex;
+  display: flex;
   align-items: center;
- 
+  margin: 0px;
   width: 1920px;
   height: 150px;
-
-  background: #FFFFFF;
+  background: white;
   box-shadow: 0px 3px 6px #00000029;
-  opacity: 1;
+  padding-left: 140px;
+  left: 0px;
+  top: 0px;
 }
-
-header #logo img {
-  width: 170px;
-  height: 42px;
-}
-header .navbar {
-
+.navbar li {
+  display: inline-block;
   margin: 0px 32px 0px 32px;
   vertical-align: middle;
 }
 
-header .join {
+.join {
   position: fixed;
   top: 51px;
-  right:140px;
+  right: 140px;
 }
-header .join button {
+.join button{
   width: 180px;
   height: 48px;
   border: 2px solid #689F38;
@@ -50,48 +42,60 @@ header .join button {
   background-color: white;
   font: normal normal 600 24px/32px Segoe UI;
 }
-
-header .join img {
+.join img {
   width: 34px;
   height: 31px;
   vertical-align: middle;
 }
-
-main #Adopt h1 {
+#Adopt h1 {
   top: 198px;
+  font: normal normal normal 34px/46px Segoe UI;
+  letter-spacing: 0px;
+  color: #404040;
 }
-main #Adopt h2 {
+#Adopt h2 {
   top: 274px;
+  font: normal normal normal 24px/32px Segoe UI;
+  letter-spacing: 0px;
+  color: #404040;
 }
-main #Adopt p {
+#Adopt p {
   top: 324px;
   width: 950px;
+  font: normal normal normal 24px/48px Segoe UI;
+  letter-spacing: 0px;
+  color: #707070;
 }
-
-main #How h1{
+#How h1{
   top: 799px;
 }
-main #How p{
+#How p{
   top: 875px;
   width: 950px;
+  font: normal normal normal 24px/48px Segoe UI;
+  letter-spacing: 0px;
+  color: #707070;
 }
-main #Cooperate h1 {
+#Cooperate h1 {
   top: 1395px;
+  font: normal normal normal 34px/46px Segoe UI;
+  letter-spacing: 0px;
+  color: #404040;
 }
 
-main #cooperate table {
+#Cooperate table {
   width: 1640px;
   height: 376px;
   margin-bottom: 27px;
 }
-main #cooperate thead {
+#Cooperate thead {
   font: normal normal normal 34px/46px Segoe UI;
   display: table;
   width: 1600px;
   table-layout: fixed;
   padding-left: 20px;
 }
-main #cooperate tbody {
+#Cooperate tbody {
   display: block;
   font: normal normal normal 24px/48px Segoe UI;
   border: 4px solid #689F38;
@@ -99,7 +103,7 @@ main #cooperate tbody {
   padding-top: 8px;
   height: 376px;
 }
-main #cooperate tbody tr {
+#Cooperate tbody tr {
   background-image: url("./fig/tablebar.png");
   display: table;
   height: 64px;
@@ -109,14 +113,50 @@ main #cooperate tbody tr {
   box-shadow: 0px 3px 6px #00000029;
   margin: 0px 20px 15px 20px;
 }
-main #cooperate tbody::-webkit-scrollbar {
+#Cooperate tbody::-webkit-scrollbar {
   display: none;
 }
 
-main #cooperate p {
+#Cooperate p {
   top: 1930px;
   width: 1638px;
+  font: normal normal normal 24px/48px Segoe UI;
+  letter-spacing: 0px;
+  color: #707070;
 }
-
-
-
+.Ducrops #duck {
+  top: 2236px;
+  left: 1753px;
+  width: 35px;
+  height: 88px;
+  z-index:-1;
+}
+.Ducrops #corps {
+  top: 2262px;
+  background-repeat:repeat-x;
+  width: 1648px;
+  height: 60px;
+}
+#About {
+  background: #689F38 0% 0% no-repeat padding-box;
+  height: 503px;
+  margin-bottom: 46px;
+  padding-top: 49px;
+}
+#About h1 {
+  font: normal normal 600 34px/46px Segoe UI;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+#About p {
+  top: 2506px;
+  width: 978px;
+  font: normal normal normal 24px/48px Segoe UI;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+#contact {
+  height: 167px;
+  text-align: center;
+  background: #404040 0% 0% no-repeat padding-box;
+}
