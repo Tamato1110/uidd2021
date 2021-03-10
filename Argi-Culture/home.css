@@ -55,6 +55,10 @@ body {
   height: 31px;
   vertical-align: middle;
 }
+a {
+  text-decoration: none;
+  color: #707070;
+}
 #Adopt h1 {
   top: 198px;
   font: normal normal normal 34px/46px Segoe UI;
