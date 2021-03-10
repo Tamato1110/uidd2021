@@ -84,14 +84,18 @@ a {
   letter-spacing: 0px;
   color: #707070;
 }
-#PicRight {
-  grid-area:3/4;
+#PicLeft {
+  grid-column:3/4;
+  grid-row:3/4;
   justify-selfs:center;
+  grid-gap:16px;
   width: 313px;
 }
-#PicLeft {
-  grid-area:1/2;
+#PicRight {
+  grid-column:1/2;
+  grid-row:1/2;
   justify-selfs:center;
+  grid-gap:16px;
   width: 313px;
 }
 
