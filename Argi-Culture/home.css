@@ -15,56 +15,76 @@ html {
 }
 
 
-header {
-  top: 0px;
-  left: 0px;
-  width: 1920px;
-  height: 150px;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #00000029;
-  opacity: 1;
-}
-header #logo {
-  top: 50px;
-  left: 140px;
-  width: 170px;
-  height: 42px;
-  
-  text-align: left;
-  font: normal normal normal 34px/42px Vladimir Script;
-  letter-spacing: 0px;
-  color: #404040;
-  opacity: 1;
-}
-header .navbar {
-  display: flex;
-  justify-content: space-between;
-  margin:32px;
-}
-header .button #pumkin {
-  top: 80px;
-  left: 1558px;
-  width: 34px;
-  height: 13px; 
-  
-  background: #BD481B 0% 0% no-repeat padding-box;
-  opacity: 1;
-}
-header .button #button  {
-  top: 51px;
-  left: 1600px;
-  width: 180px;
-  height: 48px;
-  
-  font: normal normal 600 24px/32px Segoe UI;
-  letter-spacing: 0px;
-  color: #689F38;
-  opacity: 1;
-  
-  border: 2px solid #689F38;
-  border-radius: 4px;
-  opacity: 1;
-}
+  header {
+    display: flex;
+    z-index: 4;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    position: fixed;
+    padding: 1rem;
+    margin-bottom: 6rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  div.logo img {
+    width: 8vw;
+    height: 2vw;
+  }
+  div.logo {
+    display: flex;
+    flex: 0 1 10px;
+    align-items: center;
+    margin-left: 6rem;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  nav ul li {
+    padding-right: 3rem;
+    padding-left: 2rem;
+    cursor: pointer;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-family: 24-Segoe;
+    color: #707070;
+  }
+  nav ul div.title {
+    flex: 5 1 1200px;
+    display: flex;
+    align-items: center;
+    padding-right: 0;
+    margin-right: 6rem;
+  }
+  nav ul li img {
+    width: 30px;
+    height: 30px;
+  }
+  nav ul div {
+    display: flex;
+  }
+  nav ul div.button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 1 300px;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  nav ul div.button li {
+    padding-right: 0;
+  }
+  nav ul div.button li.button button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 3px solid rgb(49, 230, 49);
+    color: rgb(58, 207, 58);
+    font-weight: bolder;
 
 //表格
 .tablehead {
