@@ -4,6 +4,10 @@ html {
 body {
   position: absolute;
 }
+.container {
+  grid-template-columns:140px 3fr 3fr 3fr 140px;
+}
+
 #Adopt,#PicLeft,#How,#PicRight,#Cooperate,#Ducrops,#About,#Connect,#Question {
   padding-left: 140px;
   padding-right: 140px;
@@ -71,9 +75,12 @@ body {
   color: #707070;
 }
 #PicRight {
-  top: 280px;
-  left: 1138px;
-  border-spacing:16px;
+  grid-area:3/4;
+  justify-selfs:center;
+}
+#PicLeft {
+  grid-area:1/2;
+  justify-selfs:center;
 }
 
 #How h1{
@@ -183,7 +190,6 @@ body {
   color: #FFFFFF;
 }
 #Conact table {
-  top: 3017px;
-  left: 617px;
-  table-layout:fixed;
+  grid-area:2/3;
+  justify-selfs:start;
 }
