@@ -211,12 +211,24 @@ a {
   background: #404040 0% 0% no-repeat padding-box;
 }
 #Connect h1 {
-  top: 3035px;
-  font: normal normal 600 34px/46px Segoe UI;
-  letter-spacing: 0px;
   color: #FFFFFF;
+  text-align: left;
+  margin-left: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: middle;
+  font: normal normal 600 34px/46px Segoe UI;
+  margin-right: 121px;
 }
-#Connect table {
-  grid-area:2/3;
-  justify-selfs:start;
+#contact .col {
+  height: 167px;
+}
+
+#contact .pt {
+  margin-top: 37px;
+  margin-bottom: 18px;
+}
+
+#contact .pb {
+  margin: 0px 106px 48px 0px;
 }
