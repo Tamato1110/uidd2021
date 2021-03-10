@@ -1,122 +1,121 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 html {
   scroll-behavior: auto;
 }
-.conainer {
-  display: grid;
-  grid-template-coluns:[first]140px [frameL]690px [Mid1]auto [Mid2]690px [frameR]140px [ends];
-  grid-template-rows:[first]150px [nav]20px [title1]310px [page1]20px [title2]310px [page2]20px [title3]310px [table1]310px [page3]20px [ducks]310px [about]167px [ends];
-  background-color:white;
+body {
+  position: absolute;
+  text-align: left;
+  letter-spacing: 0px;
+  font: normal normal normal 24px/48px Segoe UI;
+  color: #707070;
+  opacity: 1;
 }
 
 
 header {
-  display: flex;
-  z-index: 4;
-  align-items: center;
-  flex-direction: row;
-  list-style-type: none;
   position: fixed;
-  padding: 1rem;
-  margin-bottom: 6rem;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-  width: 100%;
-  background-color: rgb(255, 255, 255);
+  display:flex;
+  align-items: center;
+ 
+  width: 1920px;
+  height: 150px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
 }
-header #logo {
-  top: 50px;
-  left: 140px;
+
+header #logo img {
   width: 170px;
   height: 42px;
-
-  text-align: left;
-  font: normal normal normal 34px/42px Vladimir Script;
-  letter-spacing: 0px;
-  color: #404040;
-  opacity: 1;
 }
 header .navbar {
-  display: flex;
-  justify-content: space-between;
-  margin:32px;
+  display: inline-block;
+  margin: 0px 32px 0px 32px;
+  vertical-align: middle;
 }
-header .button #pumkin {
-  top: 62px;
-  left: 1558px;
-  width: 34px;
-  height: 31px;
-}
-header .button #button  {
+
+header .join {
+  position: fixed;
   top: 51px;
-  left: 1600px;
+  right:140px;
+}
+header .join button {
   width: 180px;
   height: 48px;
-
-  font: normal normal 600 24px/32px Segoe UI;
-  letter-spacing: 0px;
-  color: #689F38;
-  opacity: 1;
-
   border: 2px solid #689F38;
+  font-size: 24px;
+  color: #689F38;
   border-radius: 4px;
-  opacity: 1;
+  background-color: white;
+  font: normal normal 600 24px/32px Segoe UI;
 }
 
-main h1 {
+header .join img {
+  width: 34px;
+  height: 31px;
+  vertical-align: middle;
+}
+
+main #Adopt h1 {
+  top: 198px;
+}
+main #Adopt h2 {
+  top: 274px;
+}
+main #Adopt p {
+  top: 324px;
+  width: 950px;
+}
+
+main #How h1{
+  top: 799px;
+}
+main #How p{
+  top: 875px;
+  width: 950px;
+}
+main #Cooperate h1 {
+  top: 1395px;
+}
+
+main #cooperate table {
+  width: 1640px;
+  height: 376px;
+  margin-bottom: 27px;
+}
+main #cooperate thead {
   font: normal normal normal 34px/46px Segoe UI;
-  letter-spacing: 0px;
-  color: #404040;
+  display: table;
+  width: 1600px;
+  table-layout: fixed;
+  padding-left: 20px;
 }
-main h2 {
-  font: normal normal normal 24px/32px Segoe UI;
-  letter-spacing: 0px;
-  color: #404040;
-}
-main p {
+main #cooperate tbody {
+  display: block;
   font: normal normal normal 24px/48px Segoe UI;
-  letter-spacing: 0px;
-  color: #707070;
+  border: 4px solid #689F38;
+  overflow-y: scroll;
+  padding-top: 8px;
+  height: 376px;
 }
-main .Pic1 .Pic2 {
-  width: 313px;
-  height: 222px;
+main #cooperate tbody tr {
+  background-image: url("./fig/tablebar.png");
+  display: table;
+  height: 64px;
+  vertical-align: middle;
+  width: 1600px;
+  table-layout: fixed;
+  box-shadow: 0px 3px 6px #00000029;
+  margin: 0px 20px 15px 20px;
+}
+main #cooperate tbody::-webkit-scrollbar {
+  display: none;
+}
+
+main #cooperate p {
+  top: 1930px;
+  width: 1638px;
 }
 
 
 
-
-//表格
-.tablehead {
-        table-layout:fixed;
-        clear:both;
-        width:100%;
-        height:40px;
-        border:#ccc 1px solid;
-        margin-top:10px;
-        background-color:#eee;
-}
-.tablebody {
-        table-layout:fixed;
-        clear:both;
-        width:100%;
-        margin-top:-1px;
-    }
-    table td {
-        border:#ccc 1px solid;
-        text-align:center;
-    }
-    table tr {
-        width:100%;
-        height:40px;
-    }
-    .tablebodyBox {
-        overflow-x: hidden;
-        width:100%;
-        overflow-y:scroll;
-        border-bottom:1px solid #ccc;
-    }
-//表格
