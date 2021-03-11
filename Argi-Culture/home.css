@@ -10,8 +10,8 @@ body {
 }
 .grid-container {
   display:grid;
-  grid-template-columns:740px 1340px 1940px; 
-  grid-template-rows:280px 740px 875px 1335px 2382px 2980px;
+  grid-template-rows:740px 1340px 1940px; 
+  grid-template-columns:280px 740px 875px 1335px 2382px 2980px;
   grid-template-area:
     'Adopt Adopt PicRight'
     'b b b'
