@@ -10,8 +10,15 @@ body {
 }
 .grid-container {
   display:grid;
-  grid-template-columns:140px 740px 1340px 1940px 2080px;
+  grid-template-rows:740px 1340px 1940px; 
   grid-template-rows:280px 740px 875px 1335px 2382px 2980px;
+  grid-template-area:
+    'Adopt Adopt PicRight'
+    'b b b'
+    'PicLeft How How'
+    'c c c'
+    'Cycle About About'
+    'Connect Connect Connect'    
 }
 
 .navbar {
@@ -73,8 +80,7 @@ a {
   color: #404040;
 }
 .grid-item Adopt {
-  grid-columns:140px/1340px;
-  grid-rows:280px/740px;
+  grid-area:Adopt;
 }
 .grid-item Adopt h2 {
   top: 274px;
@@ -93,8 +99,7 @@ a {
 }
 
 .grid-item PicRight {
-  grid-columns:1340px/1940px;
-  grid-rows:280px/740px;
+  grid-area:PicRight;
 }
 .grid-item PicRight li {
   list-style: none;
@@ -112,8 +117,7 @@ a {
 }
 
 .grid-item PicLeft {
-  grid-columns:140px/740px;
-  grid-rows:875px/1335px;
+  grid-area:PicLeft;
 }
 .grid-item PicLeft li {
   list-style: none;
@@ -141,8 +145,7 @@ a {
   color: #404040;
 }
 .grid-item-How {
-  grid-columns:740px/1940px;
-  grid-rows:875px/1335px;
+  grid-area:How;
 }
 .grid-item-How p{
   top: 875px;
@@ -212,8 +215,7 @@ a {
 }
 
 .grid-item Cycle {
-  grid-columns:140px/740px;
-  grid-rows:2382px/2930px;
+  grid-area:Cycle;
   background: #689F38 0% 0% no-repeat padding-box;
   height: 503px;
   margin-bottom: 46px;
@@ -226,8 +228,7 @@ a {
    margin-right: 112px;
 }
 .grid-item About {
-  grid-columns:740px/1940px;
-  grid-rows:2382px/2930px;
+  grid-area:About;
 
   background: #689F38 0% 0% no-repeat padding-box;
   margin-bottom: 46px;
@@ -250,8 +251,7 @@ a {
 }
 
 .grid-item Connect {
-  grid-columns:140pz/1940px;
-  grid-rows:2980px/3148px; 
+  grid-area:Connect;
   
   background: #404040 0% 0% no-repeat padding-box;
   opacity: 1;
