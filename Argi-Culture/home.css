@@ -14,9 +14,9 @@ body {
   grid-template-rows:280px 740px 875px 1335px 2382px 2980px;
   grid-template-area:
     'Adopt Adopt PicRight'
-    'b b b'
+    'e e How1'
     'PicLeft How How'
-    'c c c'
+    'Coo Coo Coo'
     'Cycle About About'
     'Connect Connect Connect'    
 }
@@ -136,6 +136,7 @@ a {
 
 
 #How1 h1{
+  grid-area:Hpw1;
   top: 799px;
   left: 830px;
   
