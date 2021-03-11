@@ -10,7 +10,7 @@ body {
 }
 .grid-container {
   display:grid;
-  grid-template-columns:140px 1fr 1fr 1fr 140px;
+  grid-template-columns:140px 6fr 6fr 6fr 140px;
   grid-template-rows:280px 740px 875px 1335px 2382px 2980px;
 }
 
