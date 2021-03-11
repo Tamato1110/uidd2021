@@ -10,7 +10,7 @@ body {
 }
 .grid-container {
   display:grid;
-  grid-template-columns:140px 6fr 6fr 6fr 140px;
+  grid-template-columns:140px 740px 1340px 1940px 2080px;
   grid-template-rows:280px 740px 875px 1335px 2382px 2980px;
 }
 
@@ -73,8 +73,8 @@ a {
   color: #404040;
 }
 .grid-item Adopt {
-  grid-template-columns:1/4;
-  grid-template-rows:1/2;
+  grid-template-columns:140px/1340px;
+  grid-template-rows:280px/740px;
 }
 .grid-item Adopt h2 {
   top: 274px;
@@ -93,8 +93,8 @@ a {
 }
 
 .grid-item PicRight {
-  grid-template-columns:4/5;
-  grid-template-rows:1/2;
+  grid-template-columns:1340px/1940px;
+  grid-template-rows:280px/740px;
 }
 .grid-item PicRight li {
   list-style: none;
@@ -112,8 +112,8 @@ a {
 }
 
 .grid-item PicLeft {
-  grid-template-columns:1/2;
-  grid-template-rows:3/4;
+  grid-template-columns:140px/740px;
+  grid-template-rows:875px/1335px;
 }
 .grid-item PicLeft li {
   list-style: none;
@@ -141,8 +141,8 @@ a {
   color: #404040;
 }
 .grid-item-How {
-  grid-template-columns:2/5;
-  grid-template-rows:3/4;
+  grid-template-columns:740px/1940px;
+  grid-template-rows:875px/1335px;
 }
 .grid-item-How p{
   top: 875px;
@@ -212,8 +212,8 @@ a {
 }
 
 .grid-item Cycle {
-  grid-template-columns:1/2;
-  grid-template-rows:5/6;
+  grid-template-columns:140px/740px;
+  grid-template-rows:2382px/2930px;
   background: #689F38 0% 0% no-repeat padding-box;
   height: 503px;
   margin-bottom: 46px;
@@ -226,8 +226,8 @@ a {
    margin-right: 112px;
 }
 .grid-item About {
-  grid-template-columns:2/5;
-  grid-template-rows:5/6;
+  grid-template-columns:740px/1940px;
+  grid-template-rows:2382px/2930px;
 
   background: #689F38 0% 0% no-repeat padding-box;
   margin-bottom: 46px;
@@ -250,8 +250,8 @@ a {
 }
 
 .grid-item Connect {
-  grid-template-columns:2/4;
-  grid-template-rows:6/end; 
+  grid-template-columns:140pz/1940px;
+  grid-template-rows:2980px/3148px; 
   
   background: #404040 0% 0% no-repeat padding-box;
   opacity: 1;
