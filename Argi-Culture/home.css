@@ -1,38 +1,67 @@
-html {
-  scroll-behavior: auto;
-}
 body {
   position: absolute;
   font: normal normal normal 24px/48px Segoe UI;
   color: #707070;
+}
+
+#logo,#adopt,#cooperation,#about,#contact,#question {
   padding-left: 140px;
   padding-right: 140px;
 }
 
-.navbar {
+.navigation {
   position: fixed;
   display: flex;
   align-items: center;
   margin: 0px;
-  
   width: 1920px;
-  width:100%;
   height: 150px;
-  
   background: white;
   box-shadow: 0px 3px 6px #00000029;
-  
+  padding-left: 140px;
   left: 0px;
   top: 0px;
 }
-.navbar li {
+
+.navigation li {
   display: inline-block;
   margin: 0px 32px 0px 32px;
   vertical-align: middle;
 }
-.navbar img {
- width: 170px;
- height: 42px;
+
+.navigation img {
+  width: 170px;
+  height: 42px;
+}
+
+.nav2 {
+  position: fixed;
+  display: inline;
+  right: 140px;
+  bottom: 10%;
+  width: 80px;
+  height: 80px;
+  border-radius: 45px;
+  text-align: center;
+  background: #404040 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 4px solid #FFFFFF38;
+  opacity: 0.68;
+}
+
+.nav2 img {
+  width: 40px;
+  height: 25px;
+  margin-top: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #707070;
+}
+
+#logo {
+  margin-top: 198px;
 }
 
 .join {
@@ -40,6 +69,7 @@ body {
   top: 51px;
   right: 140px;
 }
+
 .join button{
   width: 180px;
   height: 48px;
@@ -50,54 +80,82 @@ body {
   background-color: white;
   font: normal normal 600 24px/32px Segoe UI;
 }
+
 .join img {
   width: 34px;
   height: 31px;
   vertical-align: middle;
 }
-a {
-  text-decoration: none;
-  color: #707070;
+
+#contact {
+  height: 167px;
+  text-align: center;
+  background: #404040 0% 0% no-repeat padding-box;
 }
 
-#adopt1 h1 {
-  top: 198px;
-  left:140px;
-  font: normal normal normal 34px/46px Segoe UI;
-  letter-spacing: 0px;
-  color: #404040;
+#contact .col,h3 {
+  color: #FFFFFF;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: middle;
 }
 
-.Adopt h2 {
-  top: 274px;
-  text-align: left;
-  font: normal normal normal 24px/32px Segoe UI;
-  letter-spacing: 0px;
-  color: #404040;
+#contact h3 {
+  font: normal normal 600 34px/46px Segoe UI;
+  margin-right: 121px;
 }
-.Adopt p {
-  top: 324px;
-  text-align: left;
-  font: normal normal normal 24px/48px Segoe UI;
-  letter-spacing: 0px;
-  color: #707070;
+
+#contact .col {
+  height: 167px;
+}
+
+#contact .pt {
+  margin-top: 37px;
+  margin-bottom: 18px;
+}
+
+#contact .pb {
+  margin: 0px 106px 48px 0px;
+}
+
+#adopt {
+  margin-bottom: 60px;
+}
+
+#adopt .col{
+  vertical-align: middle;
+  width: 313px;
+  margin: 0px;
+}
+
+#adopt .p1 {
   width: 950px;
+  height: 466px;
+  margin-right: 40px;
 }
-.PicRight li {
-  top: 280px;
-  left: 1138px;
-  list-style: none;
-  display:inline-block;
-  margin:0px 16px;
-  width:50%;
+
+#adopt .p2 {
+  margin-top: 43px;
+  margin-left: 690px;
+  margin-bottom: 30px;
 }
-.PicRight li img {
-  position: relative;
-  width=313px;
-  height:222px;
-  top: 50%;
-  overglow: hidden;
-  transform:translateY(-50%);
+
+#adopt .p3 {
+  width: 950px;
+  height: 464px;
+  margin-left: 40px;
+}
+
+#adopt p {
+  margin: 0px;
+}
+
+.bold {
+  font: normal normal normal 34px/46px Segoe UI;
+  color: #404040;
 }
 
 .diffcolor {
@@ -124,61 +182,65 @@ a {
   padding-right: 10px;
 }
 
-.PicLeft li {
-  top: 875px;
-  list-style: none;
-  display:inline-block;
-  margin:0px 16px;
-  width:50%;
-}
-.PicLeft li img {
-  position: relative;
-  width=313px;
-  height:222px;
-  top: 50%;
-  overglow: hidden;
-  transform:translateY(-50%);
+.duck {
+  background-image: url("./fig/plant.png");
+  width: 1648px;
+  margin: 60px 140px 60px 140px;
 }
 
-
-#How1 h1{
-  top: 799px;
-  left: 830px;
-  
-  text-align: left;
-  font: normal normal normal 34px/46px Segoe UI;
-  letter-spacing: 0px;
-  color: #404040;
-}
-.How p{
-  top: 875px;
-  left: 830px;
-  width: 950px;
-  text-align: left;
-  font: normal normal normal 24px/48px Segoe UI;
-  letter-spacing: 0px;
-  color: #707070;
+.duck img {
+  margin-left: 1613px;
 }
 
-#Cooperate h1 {
-  top: 1395px;
-  font: normal normal normal 34px/46px Segoe UI;
-  letter-spacing: 0px;
-  color: #404040;
+#about {
+  background: #689F38 0% 0% no-repeat padding-box;
+  height: 503px;
+  margin-bottom: 46px;
+  padding-top: 49px;
 }
-#Cooperate table {
+
+#about p {
+  color: white;
+  margin: 0px;
+}
+
+#about img {
+  width: 500px;
+  height: 470px;
+  margin-right: 112px;
+}
+
+#about .col {
+  width: 978px;
+  height: 443px;
+  vertical-align: top;
+}
+
+#cooperation {
+  width: 1640px;
+}
+
+#cooperation .bold {
+  padding-top: 200px;
+  margin-top: -200px;
+  margin-bottom: 30px;
+}
+
+#cooperation table {
   width: 1640px;
   height: 376px;
   margin-bottom: 27px;
 }
-#Cooperate thead {
+
+#cooperation thead {
   font: normal normal normal 34px/46px Segoe UI;
   display: table;
   width: 1600px;
   table-layout: fixed;
   padding-left: 20px;
 }
-#Cooperate tbody {
+
+#cooperation tbody {
   display: block;
   font: normal normal normal 24px/48px Segoe UI;
   border: 4px solid #689F38;
@@ -186,7 +248,8 @@ a {
   padding-top: 8px;
   height: 376px;
 }
-#Cooperate tbody tr {
+
+#cooperation tbody tr {
   background-image: url("./fig/tablebar.png");
   display: table;
   height: 64px;
@@ -196,85 +259,41 @@ a {
   box-shadow: 0px 3px 6px #00000029;
   margin: 0px 20px 15px 20px;
 }
-#Cooperate tbody::-webkit-scrollbar {
+
+#cooperation tbody::-webkit-scrollbar {
   display: none;
 }
 
-#Cooperate p {
-  top: 1930px;
-  width: 1638px;
-  font: normal normal normal 24px/48px Segoe UI;
-  letter-spacing: 0px;
-  color: #707070;
+#cooperation p {
+  margin: 0px;
 }
 
-.Ducrops #duck {
-  background-image: url("./res/3239367.svg");
-  width: 1648px;
-  margin: 60px 140px 60px 140px;
-}
-.Ducrops #duck img {
-  margin-left: 1613px;
+#question {
+  width: 1640px;
+  min-height: 669px;
+  margin-top: 198px;
 }
 
-.Cycle {
-  background: #689F38 0% 0% no-repeat padding-box;
-  height: 503px;
-  margin-bottom: 46px;
-  padding-top: 49px;
-}
-
-.Cycle img {
-   width: 500px;
-   height: 470px;
-   margin-right: 112px;
-}
-.About {
-  background: #689F38 0% 0% no-repeat padding-box;
-  margin-bottom: 46px;
-  padding-top: 49px;
-}
-.About h1 {
-  top: 2431px;
-  left: 782px;
+#question .bold {
   font: normal normal 600 34px/46px Segoe UI;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-}
-.About p {
-  top: 2506px;
-  left: 782px;
-  width: 978px;
-  font: normal normal normal 24px/48px Segoe UI;
-  letter-spacing: 0px;
-  color: #FFFFFF;
+  margin-bottom: 10px;
 }
 
-.Connect {
-  grid-area:Connect;
-  
-  background: #404040 0% 0% no-repeat padding-box;
-  opacity: 1;
-}
-.Connect #Connect1 h1 {
-  top: 3035px;
-  left: 360px;
-  width: 136px;
-  height: 46px;
-
-  text-align: left;
-  font: normal normal 600 34px/46px Segoe UI;
-  letter-spacing: 0px;
-  color: #FFFFFF;
+#question .q {
+  width: 1640px;
+  height: 72px;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-left: 30px;
 }
 
-.Connect p {
-  color: #FFFFFF;
-  text-align: left;
-  margin-left: 10px;
-  display: inline-flex;
-  flex-direction: column;
-  vertical-align: middle;
-  font: normal normal 600 34px/46px Segoe UI;
-  margin-right: 121px;
+#question .qt {
+  font: normal normal 600 24px/32px Segoe UI;
+  color: #404040;
+}
+
+#question .anw {
+  font: normal normal normal 24px/32px Segoe UI;
+  opacity: 0;
 }
