@@ -4,12 +4,12 @@ body {
   color: #707070;
 }
 
-#logo,#adopt,#cooperation,#about,#contact,#question {
+#logo,#Adopt,#CooperatE,#About,#Connect,#Question {
   padding-left: 140px;
   padding-right: 140px;
 }
 
-.navigation {
+.navbar {
   position: fixed;
   display: flex;
   align-items: center;
@@ -23,36 +23,15 @@ body {
   top: 0px;
 }
 
-.navigation li {
+.navbar li {
   display: inline-block;
   margin: 0px 32px 0px 32px;
   vertical-align: middle;
 }
 
-.navigation img {
+.navbar img {
   width: 170px;
   height: 42px;
-}
-
-.nav2 {
-  position: fixed;
-  display: inline;
-  right: 140px;
-  bottom: 10%;
-  width: 80px;
-  height: 80px;
-  border-radius: 45px;
-  text-align: center;
-  background: #404040 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #00000029;
-  border: 4px solid #FFFFFF38;
-  opacity: 0.68;
-}
-
-.nav2 img {
-  width: 40px;
-  height: 25px;
-  margin-top: 25px;
 }
 
 a {
@@ -87,13 +66,13 @@ a {
   vertical-align: middle;
 }
 
-#contact {
+#Connect {
   height: 167px;
   text-align: center;
   background: #404040 0% 0% no-repeat padding-box;
 }
 
-#contact .col,h3 {
+#Connect .col,h3 {
   color: #FFFFFF;
   text-align: left;
   margin-left: 10px;
@@ -103,62 +82,62 @@ a {
   vertical-align: middle;
 }
 
-#contact h3 {
+#Connect h3 {
   font: normal normal 600 34px/46px Segoe UI;
   margin-right: 121px;
 }
 
-#contact .col {
+#Connect .col {
   height: 167px;
 }
 
-#contact .pt {
+#Connect .pt {
   margin-top: 37px;
   margin-bottom: 18px;
 }
 
-#contact .pb {
+#Connect .pb {
   margin: 0px 106px 48px 0px;
 }
 
-#adopt {
+#Adopt {
   margin-bottom: 60px;
 }
 
-#adopt .col{
+#Adopt .col{
   vertical-align: middle;
   width: 313px;
   margin: 0px;
 }
 
-#adopt .p1 {
+#Adopt .h1 {
   width: 950px;
   height: 466px;
   margin-right: 40px;
 }
 
-#adopt .p2 {
+#Adopt .h2 {
   margin-top: 43px;
   margin-left: 690px;
   margin-bottom: 30px;
 }
 
-#adopt .p3 {
+#Adopt .p3 {
   width: 950px;
   height: 464px;
   margin-left: 40px;
 }
 
-#adopt p {
+#Adopt p {
   margin: 0px;
 }
 
-.bold {
+.front1 {
   font: normal normal normal 34px/46px Segoe UI;
   color: #404040;
 }
 
-.diffcolor {
+.front1 {
   color: #404040;
 }
 
@@ -192,47 +171,47 @@ a {
   margin-left: 1613px;
 }
 
-#about {
+#About {
   background: #689F38 0% 0% no-repeat padding-box;
   height: 503px;
   margin-bottom: 46px;
   padding-top: 49px;
 }
 
-#about p {
+#About p {
   color: white;
   margin: 0px;
 }
 
-#about img {
+#About img {
   width: 500px;
   height: 470px;
   margin-right: 112px;
 }
 
-#about .col {
+#About .col {
   width: 978px;
   height: 443px;
   vertical-align: top;
 }
 
-#cooperation {
+#Cooperate {
   width: 1640px;
 }
 
-#cooperation .bold {
+#Cooperate .front1 {
   padding-top: 200px;
   margin-top: -200px;
   margin-bottom: 30px;
 }
 
-#cooperation table {
+#Cooperate table {
   width: 1640px;
   height: 376px;
   margin-bottom: 27px;
 }
 
-#cooperation thead {
+#Cooperate thead {
   font: normal normal normal 34px/46px Segoe UI;
   display: table;
   width: 1600px;
@@ -240,7 +219,7 @@ a {
   padding-left: 20px;
 }
 
-#cooperation tbody {
+#Cooperate tbody {
   display: block;
   font: normal normal normal 24px/48px Segoe UI;
   border: 4px solid #689F38;
@@ -249,7 +228,7 @@ a {
   height: 376px;
 }
 
-#cooperation tbody tr {
+#Cooperate tbody tr {
   background-image: url("./fig/tablebar.png");
   display: table;
   height: 64px;
@@ -260,26 +239,26 @@ a {
   margin: 0px 20px 15px 20px;
 }
 
-#cooperation tbody::-webkit-scrollbar {
+#Cooperate tbody::-webkit-scrollbar {
   display: none;
 }
 
-#cooperation p {
+#Cooperate p {
   margin: 0px;
 }
 
-#question {
+#Question {
   width: 1640px;
   min-height: 669px;
   margin-top: 198px;
 }
 
-#question .bold {
+#Question .front1 {
   font: normal normal 600 34px/46px Segoe UI;
   margin-bottom: 10px;
 }
 
-#question .q {
+#Question .Q {
   width: 1640px;
   height: 72px;
   border: 1px solid #707070;
@@ -288,12 +267,12 @@ a {
   padding-left: 30px;
 }
 
-#question .qt {
+#Question .S {
   font: normal normal 600 24px/32px Segoe UI;
   color: #404040;
 }
 
-#question .anw {
+#Question .A {
   font: normal normal normal 24px/32px Segoe UI;
   opacity: 0;
 }
