@@ -8,18 +8,6 @@ body {
   padding-left: 140px;
   padding-right: 140px;
 }
-.grid-container {
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr; 
-  grid-template-rows:280px 740px 875px 1335px 2382px 2980px;
-  grid-template-area:
-    'Adopt Adopt PicRight'
-    'e e How1'
-    'PicLeft How How'
-    'Coo Coo Coo'
-    'Cycle About About'
-    'Connect Connect Connect'    
-}
 
 .navbar {
   position: fixed;
@@ -72,16 +60,14 @@ a {
   color: #707070;
 }
 
-#Adopt1 h1 {
+#adopt1 h1 {
   top: 198px;
   left:140px;
   font: normal normal normal 34px/46px Segoe UI;
   letter-spacing: 0px;
   color: #404040;
 }
-.Adopt {
-  grid-area:Adopt;
-}
+
 .Adopt h2 {
   top: 274px;
   text-align: left;
@@ -97,11 +83,9 @@ a {
   color: #707070;
   width: 950px;
 }
-
-.PicRight {
-  grid-area:PicRight;
-}
 .PicRight li {
+  top: 280px;
+  left: 1138px;
   list-style: none;
   display:inline-block;
   margin:0px 16px;
@@ -116,10 +100,8 @@ a {
   transform:translateY(-50%);
 }
 
-.PicLeft {
-  grid-area:PicLeft;
-}
 .PicLeft li {
+  top: 875px;
   list-style: none;
   display:inline-block;
   margin:0px 16px;
@@ -136,7 +118,6 @@ a {
 
 
 #How1 h1{
-  grid-area:Hpw1;
   top: 799px;
   left: 830px;
   
@@ -144,9 +125,6 @@ a {
   font: normal normal normal 34px/46px Segoe UI;
   letter-spacing: 0px;
   color: #404040;
-}
-.How {
-  grid-area:How;
 }
 .How p{
   top: 875px;
@@ -216,7 +194,6 @@ a {
 }
 
 .Cycle {
-  grid-area:Cycle;
   background: #689F38 0% 0% no-repeat padding-box;
   height: 503px;
   margin-bottom: 46px;
@@ -229,8 +206,6 @@ a {
    margin-right: 112px;
 }
 .About {
-  grid-area:About;
-
   background: #689F38 0% 0% no-repeat padding-box;
   margin-bottom: 46px;
   padding-top: 49px;
