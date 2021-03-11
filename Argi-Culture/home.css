@@ -10,8 +10,8 @@ body {
 }
 .grid-container {
   display:grid;
-  grid-template-rows:740px 1340px 1940px; 
-  grid-template-columns:280px 740px 875px 1335px 2382px 2980px;
+  grid-template-columns:1fr 1fr 1fr; 
+  grid-template-rows:280px 740px 875px 1335px 2382px 2980px;
   grid-template-area:
     'Adopt Adopt PicRight'
     'b b b'
@@ -72,24 +72,24 @@ a {
   color: #707070;
 }
 
-#Adopt h1 {
+#Adopt1 h1 {
   top: 198px;
   left:140px;
   font: normal normal normal 34px/46px Segoe UI;
   letter-spacing: 0px;
   color: #404040;
 }
-.grid-item Adopt {
+.Adopt {
   grid-area:Adopt;
 }
-.grid-item Adopt h2 {
+.Adopt h2 {
   top: 274px;
   text-align: left;
   font: normal normal normal 24px/32px Segoe UI;
   letter-spacing: 0px;
   color: #404040;
 }
-.grid-item Adopt p {
+.Adopt p {
   top: 324px;
   text-align: left;
   font: normal normal normal 24px/48px Segoe UI;
@@ -98,16 +98,16 @@ a {
   width: 950px;
 }
 
-.grid-item PicRight {
+.PicRight {
   grid-area:PicRight;
 }
-.grid-item PicRight li {
+.PicRight li {
   list-style: none;
   display:inline-block;
   margin:0px 16px;
   width:50%;
 }
-.grid-item PicRight li img {
+.PicRight li img {
   position: relative;
   width=313px;
   height:222px;
@@ -116,16 +116,16 @@ a {
   transform:translateY(-50%);
 }
 
-.grid-item PicLeft {
+.PicLeft {
   grid-area:PicLeft;
 }
-.grid-item PicLeft li {
+.PicLeft li {
   list-style: none;
   display:inline-block;
   margin:0px 16px;
   width:50%;
 }
-.grid-item PicLeft li img {
+.PicLeft li img {
   position: relative;
   width=313px;
   height:222px;
@@ -135,7 +135,7 @@ a {
 }
 
 
-#How h1{
+#How1 h1{
   top: 799px;
   left: 830px;
   
@@ -144,10 +144,10 @@ a {
   letter-spacing: 0px;
   color: #404040;
 }
-.grid-item-How {
+.How {
   grid-area:How;
 }
-.grid-item-How p{
+.How p{
   top: 875px;
   left: 830px;
   width: 950px;
@@ -214,7 +214,7 @@ a {
   margin-left: 1613px;
 }
 
-.grid-item Cycle {
+.Cycle {
   grid-area:Cycle;
   background: #689F38 0% 0% no-repeat padding-box;
   height: 503px;
@@ -222,26 +222,26 @@ a {
   padding-top: 49px;
 }
 
-.grid-item Cycle img {
+.Cycle img {
    width: 500px;
    height: 470px;
    margin-right: 112px;
 }
-.grid-item About {
+.About {
   grid-area:About;
 
   background: #689F38 0% 0% no-repeat padding-box;
   margin-bottom: 46px;
   padding-top: 49px;
 }
-.grid-item About h1 {
+.About h1 {
   top: 2431px;
   left: 782px;
   font: normal normal 600 34px/46px Segoe UI;
   letter-spacing: 0px;
   color: #FFFFFF;
 }
-.grid-item About p {
+.About p {
   top: 2506px;
   left: 782px;
   width: 978px;
@@ -250,13 +250,13 @@ a {
   color: #FFFFFF;
 }
 
-.grid-item Connect {
+.Connect {
   grid-area:Connect;
   
   background: #404040 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-.grid-item Connect #h1 {
+.Connect #Connect1 h1 {
   top: 3035px;
   left: 360px;
   width: 136px;
@@ -268,7 +268,7 @@ a {
   color: #FFFFFF;
 }
 
-.grid-item Connect p {
+.Connect p {
   color: #FFFFFF;
   text-align: left;
   margin-left: 10px;
