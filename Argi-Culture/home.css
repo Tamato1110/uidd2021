@@ -100,6 +100,30 @@ a {
   transform:translateY(-50%);
 }
 
+.diffcolor {
+  color: #404040;
+}
+
+.picture img {
+  width: 313px;
+  height: 222;
+}
+
+.picture .img1 {
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.col {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.col1 {
+  padding-right: 10px;
+}
+
 .PicLeft li {
   top: 875px;
   list-style: none;
