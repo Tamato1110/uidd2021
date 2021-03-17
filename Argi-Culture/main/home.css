@@ -1,5 +1,5 @@
 * {
-margin:0px;
+  margin:0px;
 }
 
 header {
@@ -17,12 +17,10 @@ header {
 body {
   padding-left: 140px;
   padding-right:140px;
+  padding-top:150px;
+  padding-bottom:150px;
 }
 
-header.navbar {
-  position: fixed;
-
-}
 .navbar {
   position: fixed;
   display: flex;
