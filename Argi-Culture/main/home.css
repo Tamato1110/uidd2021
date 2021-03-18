@@ -70,8 +70,8 @@ header {
 }/*南瓜大小*/
 
 body {
-  padding-left:7.5%;
-  padding-right:7.5%;
+  padding-left:7%;
+  padding-right:7%;
   padding-top:200px;
   padding-bottom:150px;
 
@@ -111,7 +111,6 @@ body {
   display:float;
   margin:16px;
 }/*圖片大小及換行*/
-
 .First,.second,.Third {
   display: table-cell;
   vertical-align: middle;
@@ -123,7 +122,7 @@ body {
 
   display:block;
   float:left;
-}
+}  
 #Adopt .Picset1 {
   display:inline-block;
 }/*圖片排列*/
@@ -189,12 +188,18 @@ body {
 
 .duck {
   background-image:url(./res/corps.svg); 
-  background-repeat:repeat-x;
-  z-index: 0;
+  background-repeat:round;
+  background-size: contain;
+	width:auto;
+	height:40px;
+  background-position:center bottom;
 }
 #duck {
+  height:57px;
   float:right;
-  z-index: -1;
+	background-size: contain;
+	background-repeat:no-repeat;
+	background-position:right bottom;
 }
 
 
@@ -211,16 +216,14 @@ body {
   margin-right: 100px;
 }
 
-fotter {
-  position:absolute;
-  width:100%;
-  height:167px;
-  background:#404040;
-  left:0px;
-  bottom:0px;
+footer {
+  margin-top: 30px;
+  background-color: #404040;
+  text-align:center;
+  margin-bottom:0px;
 }
 
-#Connect .col,h3 {
+#Connect {
   text-align: left;
   margin-left: 10px;
   margin-right: 10px;
