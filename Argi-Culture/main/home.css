@@ -112,13 +112,10 @@ body {
   margin:16px;
 }/*圖片大小及換行*/
 
-@media all, (min-width:2000px), print {
 .First,.second,.Third {
   display: table-cell;
   vertical-align: middle;
-}  
-}
-
+}  /*圖文並排*/
 #Adopt .Text {
   /*文字換行*/
   white-space: normal;
@@ -193,6 +190,7 @@ body {
 .duck {
   background-image:url(./res/corps.svg); 
   background-repeat:repeat-x;
+  z-index: 0;
 }
 #duck {
   float:right;
@@ -210,15 +208,18 @@ body {
 #About img {
   width: 500px;
   height: 470px;
-  margin-right: 140px;
+  margin-right: 100px;
 }
 
-#Connect {
-  height: 167px;
-  text-align: center;
-  background: #404040;
-  bottom: 0px;
+fotter {
+  position:absolute;
+  width:100%;
+  height:167px;
+  background:#404040;
+  left:0px;
+  bottom:0px;
 }
+
 #Connect .col,h3 {
   text-align: left;
   margin-left: 10px;
@@ -228,47 +229,25 @@ body {
   vertical-align: middle;
 }
 
-#Connect .col {
-  height: 167px;
+.QTitle1 {
+  font-size:34px;
+  color:#404040;
 }
-#Connect .pt {
-  margin-top: 37px;
-  margin-bottom: 18px;
-}
-#Connect .pb {
-  margin: 0px 106px 48px 0px;
-}
-.col {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.col1 {
-  padding-right: 10px;
-}
+.QTitle2 {
+  font-size:24px;
+  color:#404040; 
 
-
-#Question {
-  width: 1640px;
-  min-height: 669px;
-  margin-top: 198px;
-}
-#Question .front1 {
-  font: normal normal 600 34px/46px Segoe UI;
-  margin-bottom: 10px;
-}
-#Question .Q {
-  width: 1640px;
-  height: 72px;
   border: 1px solid #707070;
   border-radius: 10px;
-  margin-top: 20px;
-  padding-left: 30px;
+  opacity: 1;
+  padding:20px;
 }
-#Question .S {
-  font: normal normal 600 24px/32px Segoe UI;
-  color: #404040;
-}
+.Qp {
+  font-size: 24px;
+  color: #707070;
+  padding:20px;
+}/**/
+
 #Question .A {
   font: normal normal normal 24px/32px Segoe UI;
   opacity: 0;

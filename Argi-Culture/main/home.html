@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Agri- Culture</title>
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="mobile.css" />
     <link href="home.css" type="text/css" rel="stylesheet">
   </head>
 
@@ -19,6 +20,32 @@
     <div class="join">
       <img src="./res/pumpkin.svg"></img>
       <button type="button">現在就加入</button>
+    </div>
+
+    <div class="ui modal">
+      <i class="close icon"></i>
+      <div class="header">
+        Profile Picture
+      </div>
+      <div class="image content">
+        <div class="ui medium image">
+          <img src="/images/avatar/large/chris.jpg">
+        </div>
+        <div class="description">
+          <div class="ui header">We've auto-chosen a profile image for you.</div>
+          <p>We've grabbed the following image from the <a href="https://www.gravatar.com" target="_blank">gravatar</a> image associated with your registered e-mail address.</p>
+          <p>Is it okay to use this photo?</p>
+        </div>
+      </div>
+      <div class="actions">
+        <div class="ui black deny button">
+          Nope
+        </div>
+        <div class="ui positive right labeled icon button">
+          Yep, that's me
+          <i class="checkmark icon"></i>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -128,29 +155,28 @@
       <p>不論您是消費者或農家，只要您認同我們的理念，歡迎您加入我們！</p>
     </div>
 
-  </body>
-
-  <br>
+    <br>
     <div class="duck">
-      <div style="background-image: url('./res/corps.svg'); height: 60px; background-repeat: repeat-x"></div>
+      <div id="corp" style="background-image: url(./res/corps.svg); height: 60px; width:30px; background-repeat: repeat-x"></div>
       <a><img id="duck" src="./res/duck.svg"></img></a>
     </div>  
+  </body>
+
+
   <br>
 
-    <div id="About">
-      <div class="Third">
-        <img src="./res/cycele.jpg"></img>
-      </div>
-
-      <div class="Third">
-        <h1 class="Title3">關於我們</h1>
-        <p>Agri-Culture的目的是推廣台灣的農業及土地教育，並以已知的科學知識進行食品安全的危機管理，在對土地更友善的同時，讓消費者對食品能更安心、信賴，讓農家能有更好的獲利，促進農業的復甦。</p>
-        <p>除了對土地與生產的關注，我們也對農家的現況與外來感到憂心，目前農村人口外移嚴重，經常由高齡者進行繁重的農產活動，因此我們希望這些食農教育與活動，能夠吸引更多人的加入，也希望藉此建構農村聚落居民生活照護支援體系、發展農業產業文化。</p>
-        <p>整體來說Agri-Culture關注食安、食農、土地與最接近土地的人們，以資訊和情感串起整個網絡，並期望能夠繼續保持，讓農家、消費者、土地的三方都能獲利。</p> 
-      </div>
+  <div id="About">
+    <div class="Third">
+      <img src="./res/cycele.jpg"></img>
     </div>
 
-
+    <div class="Third">
+      <h1 class="Title3">關於我們</h1>
+      <p>Agri-Culture的目的是推廣台灣的農業及土地教育，並以已知的科學知識進行食品安全的危機管理，在對土地更友善的同時，讓消費者對食品能更安心、信賴，讓農家能有更好的獲利，促進農業的復甦。</p>
+      <p>除了對土地與生產的關注，我們也對農家的現況與外來感到憂心，目前農村人口外移嚴重，經常由高齡者進行繁重的農產活動，因此我們希望這些食農教育與活動，能夠吸引更多人的加入，也希望藉此建構農村聚落居民生活照護支援體系、發展農業產業文化。</p>
+      <p>整體來說Agri-Culture關注食安、食農、土地與最接近土地的人們，以資訊和情感串起整個網絡，並期望能夠繼續保持，讓農家、消費者、土地的三方都能獲利。</p> 
+    </div>
+  </div>
 
   <footer>
     <div id="Connect">
