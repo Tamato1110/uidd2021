@@ -1,60 +1,60 @@
 * {
   margin:0px;
+  overflow-x:hidden;
 }
-
 header {
   position: fixed;
   display: flex;
   align-items: center;
 
-  margin: 0px;
   width: 100%;
   height: 150px;
 
   background: white;
   box-shadow: 0px 3px 6px #00000029;
-}
-body {
-  padding-left: 140px;
-  padding-right:140px;
-  padding-top:150px;
-  padding-bottom:150px;
-}
 
-.navbar {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  left: 0px;
-  top: 0px;
-}
+  top:0px; 
+  left:0px;
 
-.navbar li {
-  display: inline-block;
-  margin: 0px 32px 0px 32px;
-  vertical-align: middle;
-}
-
-.navbar img {
-  width: 170px;
-  height: 42px;
-}
-
-a {
+  font: normal 24px Segoe UI;
+  color: #707070;
+}/*導覽列框框*/
+.navbar a{
+  color:inhert;
   text-decoration: none;
   color: #707070;
+  vertical-align: middle;
+}/*導覽列樣式*/
+.logo {
+  width: 170px;
+  vertical-align: middle;
+}/*logo大小*/
+.nabar {
+  display:inline-flex;
+  position:absolute;
+  left:0px;
+  vertical-align: middle;  
+}/*導覽列位置*/
+.navbar ul{
+  display:flex;
+  justify-content: space-around;
+  white-space:nowrap;
 }
-
-#logo {
-  margin-top: 198px;
+.navbar li {
+  display: block;
+  float:left;
+  margin:32px;
+  overflow: left;
+  white-space: normal;
+  word-break: break-all;
+  word-wrap: break-word;
 }
-
-.join {
-  position: fixed;
-  top: 51px;
-  right: 140px;
-}
-
+.join{
+  display:inline-flex;
+  position:absolute;
+  right:70px;
+  vertical-align: middle;
+}/**/
 .join button{
   width: 180px;
   height: 48px;
@@ -64,34 +64,162 @@ a {
   border-radius: 4px;
   background-color: white;
   font: normal normal 600 24px/32px Segoe UI;
-}
-
+}/*加入按鈕樣式*/
 .join img {
   width: 34px;
-  height: 31px;
-  vertical-align: middle;
-}
+}/*南瓜大小*/
+
 body {
-  position: absolute;
+  padding-left:7.5%;
+  padding-right:7.5%;
+  padding-top:200px;
+  padding-bottom:150px;
+
   font: normal normal normal 24px/48px Segoe UI;
+}/*body通用格式*/
+
+.Title1 {
+  font-size:34px;
   color: #707070;
 }
+.Title2 {
+  font-size:24px;
+  color: #707070;
+}
+.Title3 {
+  font-size:34px;
+  color: #FFFFFF;
+}
+#Adopt,#How,#Cooperate p{
+  font-size:24px;
+  color:#707070;
+}
+#About,#Connect p {
+  font-size: 24px;
+  color:#FFFFFF;
+}/*字體大小&顏色*/
 
-#logo,#Adopt,#CooperatE,#About,#Connect,#Question {
-  padding-left: 140px;
-  padding-right: 140px;
+.Picset1 img {
+  height:222px;
+  width:313px;
+  display:float;
+  margin:16px;
+}/*圖片大小及換行*/
+.Picset2 img {
+  height:222px;
+  width:313px;
+  display:float;
+  margin:16px;
+}/*圖片大小及換行*/
+
+@media all, (min-width:2000px), print {
+.First,.second,.Third {
+  display: table-cell;
+  vertical-align: middle;
+}  
+}
+
+#Adopt .Text {
+  /*文字換行*/
+  white-space: normal;
+  width: 950px;   
+
+  display:block;
+  float:left;
+}
+#Adopt .Picset1 {
+  display:inline-block;
+}/*圖片排列*/
+#How h1 {
+  position:relative;
+  text-align: center;
+}
+#How .Text {
+  /*文字換行*/
+  white-space: normal;
+  width: 950px; 
+
+  display:block;
+  float:left;
+}
+#How .Picset2 {
+  display:inline-block;
+}/*圖片排列*/
+
+#Cooperate table {
+  width:100%;
+  height: 300px;
+  margin-bottom: 27px;
+}
+#Cooperate thead {
+  display: table;  
+  table-layout: fixed;  
+  width:100%;
+
+  font-size: 34px;
+  color:#707070;
+
+  padding-left: 20px;
+}
+#Cooperate tbody {
+  display: block;
+
+  font-size: 24px;
+
+  height: 300px;  
+  border: 4px solid #689F38;
+  overflow-y: scroll;
+  padding-top: 8px;
+}
+#Cooperate tbody tr {
+  display: table;
+  table-layout: fixed;  
+
+  width: 100%;  
+  height: 64px;
+
+  vertical-align: middle;
+
+  box-shadow: 0px 3px 6px #00000029;
+  margin: 0px 20px 15px 20px;
+}
+#Cooperate th {
+  color:#707070;
+}
+#Cooperate tbody::-webkit-scrollbar {
+  display: none;
+}
+
+.duck {
+  background-image:url(./res/corps.svg); 
+  background-repeat:repeat-x;
+}
+#duck {
+  float:right;
+  z-index: -1;
 }
 
 
+#About {
+  background-color: #689F38;
+  background-size:cover;
+  width:100%;
+  height: auto;
+  margin-bottom: 46px;
+}
+#About img {
+  width: 500px;
+  height: 470px;
+  margin-right: 140px;
+}
 
 #Connect {
   height: 167px;
   text-align: center;
-  background: #404040 0% 0% no-repeat padding-box;
+  background: #404040;
+  bottom: 0px;
 }
-
 #Connect .col,h3 {
-  color: #FFFFFF;
   text-align: left;
   margin-left: 10px;
   margin-right: 10px;
@@ -100,182 +228,35 @@ body {
   vertical-align: middle;
 }
 
-#Connect h3 {
-  font: normal normal 600 34px/46px Segoe UI;
-  margin-right: 121px;
-}
-
 #Connect .col {
   height: 167px;
 }
-
 #Connect .pt {
   margin-top: 37px;
   margin-bottom: 18px;
 }
-
 #Connect .pb {
   margin: 0px 106px 48px 0px;
 }
-
-#Adopt {
-  margin-bottom: 60px;
-}
-
-#Adopt .col{
-  vertical-align: middle;
-  width: 313px;
-  margin: 0px;
-}
-
-#Adopt .h1 {
-  width: 950px;
-  height: 466px;
-  margin-right: 40px;
-}
-
-#Adopt .h2 {
-  margin-top: 43px;
-  margin-left: 690px;
-  margin-bottom: 30px;
-}
-
-#Adopt .p3 {
-  width: 950px;
-  height: 464px;
-  margin-left: 40px;
-}
-
-#Adopt p {
-  margin: 0px;
-}
-
-.front1 {
-  font: normal normal normal 34px/46px Segoe UI;
-  color: #404040;
-}
-
-.front1 {
-  color: #404040;
-}
-
-.picture img {
-  width: 313px;
-  height: 222;
-}
-
-.picture .img1 {
-  margin-top: 4px;
-  margin-bottom: 16px;
-}
-
 .col {
   display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
 .col1 {
   padding-right: 10px;
 }
 
-.duck {
-  background-image: url("./res/3239367.svg");
-  width: 1648px;
-  margin: 60px 140px 60px 140px;
-}
-
-.duck img {
-  margin-left: 1613px;
-}
-
-#About {
-  background: #689F38 0% 0% no-repeat padding-box;
-  height: 503px;
-  margin-bottom: 46px;
-  padding-top: 49px;
-}
-
-#About p {
-  color: white;
-  margin: 0px;
-}
-
-#About img {
-  width: 500px;
-  height: 470px;
-  margin-right: 112px;
-}
-
-#About .col {
-  width: 978px;
-  height: 443px;
-  vertical-align: top;
-}
-
-#Cooperate {
-  width: 1640px;
-}
-
-#Cooperate .front1 {
-  padding-top: 200px;
-  margin-top: -200px;
-  margin-bottom: 30px;
-}
-
-#Cooperate table {
-  width: 1640px;
-  height: 376px;
-  margin-bottom: 27px;
-}
-
-#Cooperate thead {
-  font: normal normal normal 34px/46px Segoe UI;
-  display: table;
-  width: 1600px;
-  table-layout: fixed;
-  padding-left: 20px;
-}
-
-#Cooperate tbody {
-  display: block;
-  font: normal normal normal 24px/48px Segoe UI;
-  border: 4px solid #689F38;
-  overflow-y: scroll;
-  padding-top: 8px;
-  height: 376px;
-}
-
-#Cooperate tbody tr {
-  background-image: url("./fig/tablebar.png");
-  display: table;
-  height: 64px;
-  vertical-align: middle;
-  width: 1600px;
-  table-layout: fixed;
-  box-shadow: 0px 3px 6px #00000029;
-  margin: 0px 20px 15px 20px;
-}
-
-#Cooperate tbody::-webkit-scrollbar {
-  display: none;
-}
-
-#Cooperate p {
-  margin: 0px;
-}
 
 #Question {
   width: 1640px;
   min-height: 669px;
   margin-top: 198px;
 }
-
 #Question .front1 {
   font: normal normal 600 34px/46px Segoe UI;
   margin-bottom: 10px;
 }
-
 #Question .Q {
   width: 1640px;
   height: 72px;
@@ -284,12 +265,10 @@ body {
   margin-top: 20px;
   padding-left: 30px;
 }
-
 #Question .S {
   font: normal normal 600 24px/32px Segoe UI;
   color: #404040;
 }
-
 #Question .A {
   font: normal normal normal 24px/32px Segoe UI;
   opacity: 0;
