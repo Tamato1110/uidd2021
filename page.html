@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>studentID for uidd2021</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    </head>
+    <style>
+    *{font-size: large;}
+    </style>
+
+<body>
+    <form id="list-form">
+        <button type="button">list all students</button>
+    </form>
+    <div id="list-output"></div>
+    <br><br>
+
+    <from id="search-from">
+        student ID:<input pattern="[A-Z]{1}[0-9]{8}" name="sid"><br>
+        <button type="submit">search specific student</button>
+    </from>
+    <div id="search-output"></div>
+    <br><br>
+
+    <form id="add-form">
+        student ID:<input pattern="[A-Z]{1}[0-9]{8}" name="sid"><br>
+        student name:<input type="text" name="sname"><br>
+        <button type="submit">add new student</button>
+    </form>
+    <div id="add-output"></div>
+    <br><br>
+
+    <from id="delete-form">
+        student ID:<input pattern="[A-Z]{1}[0-9]{8}" name="sid"><br>
+        <button type="submit">delete specific student</button>
+    </from>
+
+    <script src="./page.js"></script>
+
+</body>
+</html>
